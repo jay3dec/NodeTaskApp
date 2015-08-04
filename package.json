@@ -1,0 +1,23 @@
+{
+  "name": "NodeTaskApp",
+  "version": "1.0.0",
+  "description": "Node.js and MySQL app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jay3dec/NodeTaskApp"
+  },
+  "author": "Jay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jay3dec/NodeTaskApp/issues"
+  },
+  "homepage": "https://github.com/jay3dec/NodeTaskApp",
+  "dependencies": {
+    "express": "^4.12.3",
+    "mysql": "^2.6.2"
+  }
+}
