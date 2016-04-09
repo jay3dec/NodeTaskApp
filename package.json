@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jay3dec/NodeTaskApp",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "express": "^4.12.3",
     "mysql": "^2.6.2"
   }
