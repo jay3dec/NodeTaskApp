@@ -19,26 +19,6 @@ app.get('/showSignUpPage',function(req,res){
   res.sendFile('signup.html',{'root':__dirname + '/templates'})
 })
 
-app.post('/signin',function(req,res){
-
-    var connection = mysql.createConnection({
-      host     : 'localhost',
-      user     : 'root',
-      password : 'root',
-      database : 'NodeListDb'
-    });
-
-    connection.connect();
-
-    connection.query('CALL sp_Authenticate("jay","jay")', function(err, rows, fields) {
-      if (err) throw err;
-
-      console.log('The solution is: ', rows[0]);
-    });
-
-    connection.end();
-})
-
 app.listen(3000,function(){
     console.log('Node server running @ http://localhost:3000')
 });
