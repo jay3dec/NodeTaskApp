@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var mysql = require('mysql');
 
 
 app.use('/node_modules',  express.static(__dirname + '/node_modules'));
